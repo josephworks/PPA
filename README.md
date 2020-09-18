@@ -4,8 +4,8 @@ My Personal Package Archive
 ## Installation
 
 ```bash
-sudo add-apt-repository "deb [arch=amd64] http://josephworks.ddns.net:8081/repository/josephworks $(lsb_release -cs) main"
-wget http://josephworks.ddns.net:8081/repository/files/public.gpg.key && sudo apt-key add public.gpg.key && rm public.gpg.key
+sudo add-apt-repository "deb [arch=amd64] http://josephworks.net:8081/repository/josephworks $(lsb_release -cs) main"
+wget http://josephworks.net:8081/repository/files/public.gpg.key && sudo apt-key add public.gpg.key && rm public.gpg.key
 sudo apt update
 ```
 
