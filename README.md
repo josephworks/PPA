@@ -50,6 +50,12 @@ Check http://josephworks.ddns.net:8081/#browse/search/apt=repository_name%3Djose
 Targeted for Ubuntu Latest (not LTS)
 Nexus 3 (latest version)
 
+### Ubuntu Archive Mirror
+
+The PPA Repository server also hosts a mirror of the Ubuntu Archive.
+
+Check it out here: https://launchpad.net/ubuntu/+mirror/repo.josephworks.net-archive
+
 ## Add a Package
 
 Want to see a package added to the repo? Just create an issue!
