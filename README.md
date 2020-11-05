@@ -4,8 +4,8 @@ My Personal Package Archive
 ## Installation
 
 ```bash
-sudo add-apt-repository "deb [arch=amd64] http://josephworks.net:8081/repository/josephworks $(lsb_release -cs) main"
-wget http://josephworks.net:8081/repository/files/public.gpg.key && sudo apt-key add public.gpg.key && rm public.gpg.key
+sudo add-apt-repository "deb [arch=amd64] http://repo.josephworks.net/repository/josephworks $(lsb_release -cs) main"
+wget http://repo.josephworks.net/repository/files/public.gpg.key && sudo apt-key add public.gpg.key && rm public.gpg.key
 sudo apt update
 ```
 
@@ -41,7 +41,7 @@ sudo apt update
 * WebMin
 * Zoom
 
-Check http://josephworks.ddns.net:8081/#browse/search/apt=repository_name%3Djosephworks for a full list of softwares.
+Check http://repo.josephworks.net/#browse/search/apt=repository_name%3Djosephworks for a full list of softwares.
 
 > Note: Have one of these already installed? Apt will pull the latest file from Ubuntu Repo if it is outdated on my repo (and vice versa). This only applies to packages that are on other repos.
 
