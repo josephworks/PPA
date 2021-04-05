@@ -24,6 +24,7 @@ sudo apt update
 * Google Earth Pro
 * Google WebDesigner
 * Hyper
+* Insomnia
 * Jenkins
 * Kitematic
 * MDATP (Microsoft Defender Active Threat Protection)
